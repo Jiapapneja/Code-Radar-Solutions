@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int num;
+    int num,divisor;
     scang("%d %d",&num,&divisor);
     if(num%divisor==0)
     {
