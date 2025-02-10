@@ -2,7 +2,7 @@
 int main(){
     int num,divisor;
     scang("%d %d",&num,&divisor);
-    if(num%divisor==0)
+    if(num % divisor==0)
     {
         printf("Yes\n");
     }
