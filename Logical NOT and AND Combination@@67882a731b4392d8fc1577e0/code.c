@@ -1,12 +1,11 @@
 #include <stdio.h>
-int main(){
-    int w,e;
-    scanf("%d %d",&w &e);
-    if(w<=0 && e<=0){
+int main()
+{
+    int  a,b;
+    scanf("%d %d", &a,&b);
+    if(a<=0 && b<=0)
         printf("True");
-    }
-    else{
+    else
         printf("False");
-    }
     return 0;
 }
