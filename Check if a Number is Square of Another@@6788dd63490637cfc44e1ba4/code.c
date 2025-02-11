@@ -9,5 +9,6 @@ int main(){
     else{
         printf("Not\n")
     }
+    return 0;
 
 }
