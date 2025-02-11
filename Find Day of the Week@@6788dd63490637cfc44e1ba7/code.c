@@ -3,9 +3,9 @@
 
 int main()
 {
-    int day
+    int day;
     scanf("%d",&day);
-    switch(day)
+    switch(Day)
     {
         case 1: printf("Monday\n");break;
         case 2: printf("Tuesday\n");break;
