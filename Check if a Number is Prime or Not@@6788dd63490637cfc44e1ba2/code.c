@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main()
 {
     int n,i;
@@ -12,7 +13,7 @@ int main()
     if (n%i==0)
     {
         printf("Not Prime\n");
-
+        return 0;
     }
 }
 printf("Prime\n");
